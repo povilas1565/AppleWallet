@@ -122,8 +122,3 @@ npm install
 npm test
 ~~~~
 
-__Sharding__
-
-Device collection can be hash sharded on the *deviceLibraryIdentifier* key.
-
-Pass collection can be sharded on the *serialNumber + passTypeIdentifier* composite key.
