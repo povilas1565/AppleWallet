@@ -221,7 +221,7 @@ describe('Test log', function(){
 	const req = {};
 	req.body = {};
 	req.body.logs = logs;
-	it('Should pass req.body.logs to callback paramater logArray', function(done){
+	it('Should pass req.body.logs to callback parameter logArray', function(done){
 		wallet.log(req, function(err, status, logArray){
 			expect(status).to.equal(200);
 			expect(logArray).to.deep.equal(logs);
